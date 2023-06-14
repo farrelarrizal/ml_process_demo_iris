@@ -57,4 +57,4 @@ jobs:
           ssh deploy_ec2 "cd ml_process_demo_iris"
           ssh deploy_ec2 "cd ml_process_demo_iris && sudo docker compose down"
           ssh deploy_ec2 "cd ml_process_demo_iris || sudo docker rmi iris-classifier-api -f || sudo docker rmi iris-classifier-streamlit -f"
-          ssh deploy_ec2 "cd ml_process_demo_iris && sudo docker-compose up -d"
+          ssh deploy_ec2 "cd ml_process_demo_iris && sudo docker compose up -d"
