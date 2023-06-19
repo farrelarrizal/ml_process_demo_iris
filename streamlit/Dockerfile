@@ -1,5 +1,5 @@
 # running python version
-FROM python:3.10-slim
+FROM python:3.9-slim-buster
 
 # set a directory for the app
 WORKDIR /home
